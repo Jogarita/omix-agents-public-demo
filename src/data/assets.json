@@ -1,0 +1,122 @@
+[
+  {
+    "id": "EQ-001",
+    "name": "Superpave Gyratory Compactor",
+    "category": "Compaction",
+    "location": "Lab A — Bay 1",
+    "status": "operational",
+    "last_calibration": "2024-08-15",
+    "calibration_due": "2025-02-15",
+    "tests_supported": ["Gmb", "Specimen Preparation"],
+    "daily_capacity": 16,
+    "utilization_percent": 72
+  },
+  {
+    "id": "EQ-002",
+    "name": "Hamburg Wheel Tracker",
+    "category": "Performance Testing",
+    "location": "Lab A — Bay 2",
+    "status": "operational",
+    "last_calibration": "2024-09-01",
+    "calibration_due": "2025-03-01",
+    "tests_supported": ["Hamburg Wheel Track"],
+    "daily_capacity": 4,
+    "utilization_percent": 85
+  },
+  {
+    "id": "EQ-003",
+    "name": "IDEAL-CT Loading Frame",
+    "category": "Performance Testing",
+    "location": "Lab A — Bay 3",
+    "status": "operational",
+    "last_calibration": "2024-10-01",
+    "calibration_due": "2025-04-01",
+    "tests_supported": ["IDEAL-CT"],
+    "daily_capacity": 12,
+    "utilization_percent": 60
+  },
+  {
+    "id": "EQ-004",
+    "name": "CoreLok Vacuum Sealer",
+    "category": "Volumetrics",
+    "location": "Lab B — Bay 1",
+    "status": "operational",
+    "last_calibration": "2024-07-20",
+    "calibration_due": "2025-01-20",
+    "tests_supported": ["Gmm", "Gmb"],
+    "daily_capacity": 24,
+    "utilization_percent": 45
+  },
+  {
+    "id": "EQ-005",
+    "name": "TSR Conditioning System",
+    "category": "Moisture Susceptibility",
+    "location": "Lab B — Bay 2",
+    "status": "maintenance",
+    "last_calibration": "2024-06-15",
+    "calibration_due": "2024-12-15",
+    "tests_supported": ["TSR"],
+    "daily_capacity": 6,
+    "utilization_percent": 0
+  },
+  {
+    "id": "EQ-006",
+    "name": "Dynamic Shear Rheometer",
+    "category": "Binder Testing",
+    "location": "Lab B — Bay 3",
+    "status": "operational",
+    "last_calibration": "2024-11-01",
+    "calibration_due": "2025-05-01",
+    "tests_supported": ["DSR"],
+    "daily_capacity": 8,
+    "utilization_percent": 50
+  },
+  {
+    "id": "EQ-007",
+    "name": "Ignition Oven",
+    "category": "Binder Content",
+    "location": "Lab A — Bay 4",
+    "status": "operational",
+    "last_calibration": "2024-08-01",
+    "calibration_due": "2025-02-01",
+    "tests_supported": ["Binder Content", "Gradation"],
+    "daily_capacity": 6,
+    "utilization_percent": 55
+  },
+  {
+    "id": "EQ-008",
+    "name": "Mechanical Sieve Shaker",
+    "category": "Gradation",
+    "location": "Lab A — Bay 4",
+    "status": "operational",
+    "last_calibration": "2024-09-15",
+    "calibration_due": "2025-03-15",
+    "tests_supported": ["Gradation"],
+    "daily_capacity": 10,
+    "utilization_percent": 40
+  },
+  {
+    "id": "EQ-009",
+    "name": "Bending Beam Rheometer",
+    "category": "Binder Testing",
+    "location": "Lab B — Bay 3",
+    "status": "operational",
+    "last_calibration": "2024-10-15",
+    "calibration_due": "2025-04-15",
+    "tests_supported": ["BBR"],
+    "daily_capacity": 6,
+    "utilization_percent": 30
+  },
+  {
+    "id": "EQ-010",
+    "name": "Rice Gravity Apparatus",
+    "category": "Volumetrics",
+    "location": "Lab B — Bay 1",
+    "status": "operational",
+    "last_calibration": "2024-07-01",
+    "calibration_due": "2025-01-01",
+    "tests_supported": ["Gmm"],
+    "daily_capacity": 8,
+    "utilization_percent": 65
+  }
+]
