@@ -25,15 +25,13 @@ export async function POST(request: NextRequest) {
     if (body.llmMode) {
       return NextResponse.json({
         humanResponse:
-          "LLM mode is enabled but no API key is configured. In production, this is where the query would be routed to an LLM (e.g., Claude or GPT) for natural language understanding, intent classification, and response generation. The deterministic agent logic you see in this demo would serve as the tool/function layer that the LLM orchestrates.",
+          "LLM mode is enabled but not available in this demo. This prototype uses deterministic logic to demonstrate agent workflows. A future version will support natural language understanding via LLM integration.",
         structuredData: {
           type: "key-value",
-          title: "LLM Integration Point",
+          title: "LLM Mode",
           entries: [
-            { key: "Status", value: "Placeholder — no API key configured" },
-            { key: "Where LLM plugs in", value: "Query understanding + response synthesis" },
+            { key: "Status", value: "Not available in this demo" },
             { key: "Current mode", value: "Deterministic keyword matching" },
-            { key: "Agent tools", value: "Mix lookup, compliance checks, lab scheduling, QA/QC validation" },
           ],
         },
         nextQuestions: [

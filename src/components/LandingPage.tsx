@@ -10,20 +10,20 @@ interface LandingPageProps {
 const agents = [
   {
     name: "Mix Design",
-    color: "#7c3aed",
-    bg: "bg-purple-50",
+    color: "#475569",
+    bg: "bg-slate-50",
     description: "Look up mix designs, compare binder grades, and check RAP content",
   },
   {
     name: "Lab Ops",
-    color: "#0891b2",
-    bg: "bg-cyan-50",
+    color: "#475569",
+    bg: "bg-slate-50",
     description: "Track equipment status, schedule calibrations, and monitor utilization",
   },
   {
     name: "QA/QC",
-    color: "#16a34a",
-    bg: "bg-green-50",
+    color: "#475569",
+    bg: "bg-slate-50",
     description: "Review test results, flag failures, and summarize quality metrics",
   },
 ];
@@ -91,6 +91,16 @@ export function LandingPage({ onEnterDemo }: LandingPageProps) {
 
           {/* Agent diagram */}
           <AgentDiagram />
+
+          {/* Team credit */}
+          <p className="text-center text-xs text-slate-500">
+            An AI exploration by{" "}
+            <a href="https://www.linkedin.com/in/josue-garita/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-700 underline underline-offset-2">Josue Garita-Jimenez</a>,{" "}
+            <a href="https://www.linkedin.com/in/anthony-brenes-calderon-phd-67ba1a1a7/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-700 underline underline-offset-2">Anthony Brenes-Calderon</a> &{" "}
+            <a href="https://www.linkedin.com/in/liz-valenca/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-700 underline underline-offset-2">Liz Valenca</a>
+            {" "}at{" "}
+            <a href="https://www.linkedin.com/company/omixpavementsolutions/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-700 underline underline-offset-2">OMIX Pavement Solutions</a>
+          </p>
 
           {/* Disclaimer */}
           <p className="text-center text-xs text-slate-400">

@@ -1,84 +1,53 @@
 # OMIX Agents — Public Demo
 
-Demonstration of AI agent concepts for **pavement engineering** and **infrastructure workflows**. This is a clean, open-source portfolio project showcasing how domain-specific agents can automate mix design review, lab operations scheduling, and quality control validation.
+Interactive demo of AI agent workflows for **pavement engineering** and **infrastructure operations**.
 
-## Why OMIX?
+Three specialized agents coordinate mix design review, lab operations scheduling, and quality control validation using structured engineering data.
 
-Pavement engineering labs generate mountains of data — mix designs, test results, equipment logs — but engineers still spend hours manually cross-referencing specs, scheduling tests, and chasing down failures. OMIX Agents demonstrate how purpose-built AI agents can automate these workflows, making lab operations faster, more accurate, and fully auditable.
+## Live Demo
 
-## What's Included
+👉 **[Try the demo](https://omix-agents-public-demo.vercel.app)**
 
-- **3 Specialized Agents** — Mix Design, Lab Operations, and QA/QC, each with deterministic keyword-matching logic
-- **Synthetic Data** — 7 mix designs, 18 lab test records, and 10 equipment assets (no real/proprietary data)
-- **Interactive Chat UI** — Next.js app with agent selection, structured data rendering, and follow-up suggestions
-- **Fully Offline** — No LLM API calls required; runs entirely on local deterministic logic
-- **LLM Toggle** — Visual placeholder showing where LLM integration would plug in
-
-## What's NOT Included
-
-- Real production models or proprietary algorithms
-- Actual project data or client information
-- Production infrastructure or deployment configs
-- LLM API integrations (this demo uses deterministic logic only)
-
-## Quickstart
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Demo Scenarios
+## Agents
 
 ### Mix Design Agent
+Look up mix designs, compare binder grades, check RAP content, and run Superpave compliance checks.
+
+### Lab Operations Agent
+Track equipment status, schedule calibrations, generate test plans, and monitor lab utilization.
+
+### QA/QC Agent
+Review test results, flag failures, validate compliance, and summarize quality metrics.
+
+## Example Queries
+
+**Mix Design**
 ```
 Show me the details for mix MX-2024-001
 Compare MX-2024-001 vs MX-2024-004
 Check Superpave compliance for MX-2024-005
 ```
 
-### Lab Operations Agent
+**Lab Operations**
 ```
 Create a test plan for mix MX-2024-003
 Which equipment has calibration due soon?
 Show lab utilization report
 ```
 
-### QA/QC Agent
+**QA/QC**
 ```
 Show all test failures
 Quality summary for mix MX-2024-004
 Validate all test results for project I-35 Overlay
 ```
 
-## Architecture
+## About
 
-```
-Presentation (React)  →  API Route  →  Agent Layer  →  Synthetic JSON Data
-    ChatLayout              POST          3 Agents         mixes.json
-    Sidebar              /api/agent     + query.ts         tests.json
-    ChatPanel                                              assets.json
-    StructuredCard
-```
+This is a simplified public prototype using synthetic data. It demonstrates the concept behind OMIX Agents without exposing proprietary logic or real project data.
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full architecture description and [docs/architecture-diagram.svg](docs/architecture-diagram.svg) for the visual diagram.
-
-## Tech Stack
-
-- **Next.js 15** (App Router)
-- **TypeScript**
-- **Tailwind CSS**
-- No external dependencies beyond React/Next.js
-
-## Roadmap
-
-- LLM integration layer (Claude/GPT) for natural language understanding
-- Additional agents: Field QC, Production Monitoring
-- Real-time data streaming via WebSockets
-- Export reports as PDF
+All data shown in the demo is fabricated for demonstration purposes.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+All rights reserved. See [LICENSE](LICENSE).

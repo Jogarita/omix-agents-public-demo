@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    background: linear-gradient(-45deg, #e0e7ff, #ede9fe, #e8eaf6, #dbeafe, #f0e6ff);
+    background: linear-gradient(-45deg, #e2e8f0, #f1f5f9, #e5e7eb, #f8fafc, #e2e8f0);
     color: #1e293b;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
