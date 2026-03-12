@@ -6,7 +6,7 @@ Three specialized agents coordinate mix design review, lab operations scheduling
 
 ## Live Demo
 
-👉 **[Try the demo](https://omix-agents-public-demo.vercel.app)**
+👉 **[Try the demo](https://omix-agents-demo.vercel.app)**
 
 ## Agents
 
